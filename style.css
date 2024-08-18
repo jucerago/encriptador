@@ -1,0 +1,392 @@
+* {
+    font-family: 'Inter';
+    line-height: 150%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    background: #F3F5FC;
+}
+
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main {
+    display: flex;
+    margin: 0 auto 20px auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+.text-area {
+    border: none;
+    color: #0a3871;
+    margin-top: 20px;
+    text-transform: lowercase;
+    font-size: 160%;
+    font-weight: 400;
+}
+
+::placeholder {
+    color: #0a3871;
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.mensaje {
+    background: white;
+    background-image: url("imagenes/muneco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 120px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    font-size: 160%;
+    font-weight: 400;
+    background-size: contain;
+    background-position: top center;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+    gap: 15px;
+}
+
+.boton-encriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 5%;
+    width: 328px;
+    font-size: 160%;
+    font-weight: 400;
+}
+
+.boton-desencriptar {
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    font-size: 160%;
+    font-weight: 400;
+}
+
+.copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 64px;
+    margin-left: 130px;
+    margin-top: 450px;
+    position: absolute;
+    width: 291px;
+    font-size: 160%;
+    font-weight: 400;
+    display: none;
+}
+
+.mensaje-informativo{
+    margin-left: 130px;
+    margin-top: 330px;
+    margin-right: 170px;
+    font-size: 160%;
+    font-weight: 600;
+    position: absolute;
+    text-align: center;
+    line-height: 80%;
+    
+}
+
+.mensaje-informativo-ingreso{
+    margin-left: 130px;
+    margin-top: 380px;
+    margin-right: 170px;
+    font-size: 100%;
+    font-weight: 200;
+    position: absolute;
+    text-align: center;
+    line-height: 100%;
+    
+}
+.informacion {
+    color: #495057;
+    font-size: 100%;
+    font-weight: 400;
+}
+
+.footer {
+    color: rgb(29, 134, 103);
+    background-color: #D8DFE8;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+    padding-bottom: 1%;
+}
+
+/* Media Queries para Responsividad */
+
+/* Smartphones */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .logo {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mensaje {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+        padding-left: 10px;
+        background-position: center;
+        position: relative;
+    }
+
+    .text-area, .mensaje {
+        font-size: 140%;
+    }
+
+    .informacion {
+        font-size: 90%;
+        text-align: center;
+    }
+
+    .footer {
+        font-size: 90%;
+        padding: 10px;
+    }
+
+    .boton-encriptar, .boton-desencriptar, .copiar {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .copiar {
+        margin-top: 20px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .mensaje-informativo{
+        margin-top: 10px;
+        position: relative;
+        margin-bottom: 20px;
+        margin-left: 30%;
+    }
+
+    .mensaje-informativo-ingreso{
+        margin-top: 10px;
+        position: relative;
+        margin-bottom: 20px;
+        margin-left: 30%;
+    }
+}
+
+/* Tabletas */
+@media (min-width: 769px) and (max-width: 1024px) {
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mensaje {
+        width: 90%;
+        margin-left: 0;
+        padding-left: 10px;
+    }
+
+    .boton-encriptar, .boton-desencriptar {
+        width: 45%;
+    }
+
+    .copiar {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .mensaje-informativo{
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .mensaje-informativo-ingreso{
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+*{
+    
+    font-family: 'Inter';
+    line-height: 150%;
+    padding : 0;
+    margin: 0;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+body{
+    background: #F3F5FC;
+}
+
+main{
+    
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    
+}
+
+.text-area{
+    border: none;
+    color: #0a3871;
+    margin-top: 20px;
+    text-transform: lowercase;
+    font-size: 160%;
+    font-weight: 400;
+}
+
+::placeholder{
+    color: #0a3871;
+}
+
+.text-area:focus{
+    outline: none;
+}
+
+.mensaje{
+    background: white;
+    background-image: url("imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    font-size: 160%;
+    font-weight: 400;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+    gap: 15px;
+}
+
+.boton-encriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 5%;
+    width: 328px;
+    font-size: 160%;
+    font-weight: 400;
+}
+
+.boton-desencriptar{
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    font-size: 160%;
+    font-weight: 400;
+}
+
+.copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 64px;
+    margin-left: 98px;
+    margin-top: 402px;
+    position: absolute;
+    width: 291px;
+    font-size: 160%;
+    font-weight: 400;
+}
+
+.informacion{
+    color: #495057;
+    font-size: 100%;
+    font-weight: 400;
+}
+
+.footer{
+    color: goldenrod;
+    background-color: #D8DFE8;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+*/
