@@ -18,7 +18,8 @@ Este proyecto fue desarrollado por **Julio Cesar Ramirez Gonzalez**.
 - **Desencriptar texto**: Convierte el texto encriptado de vuelta a su forma original.
 - **Copiar al portapapeles**: Permite copiar el texto encriptado o desencriptado al portapapeles con un solo clic.
 
-![Pantallazo_encriptador](https://github.com/user-attachments/assets/16761dc4-5a6a-44cd-af8d-aa41f9131f85)
+![Pantallazo_encriptador](https://github.com/user-attachments/assets/9616f199-b904-4740-b611-82814d09ae45)
+
 
 ## Tecnologías utilizadas
 
